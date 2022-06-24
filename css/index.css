@@ -1,3 +1,38 @@
+body {
+    background: rgba(185, 229, 255, 1);
+}
+
 ul {
     list-style: none;
+}
+
+.navbar {
+    background:rgba(235, 241, 245, 1);
+}
+
+.container {
+    background-color: rgba(235, 241, 245, 1);
+}
+
+.footerIcons {
+    color: rgba(235, 91, 99, 1);
+}
+
+.carousel {
+    width: 800px;
+}
+
+.carouselPhotos {
+    width: 800px;
+    height: 500px;
+}
+
+#logoNav {
+    width: 75px;
+    height: 75px;
+}
+
+#google_buttom {
+    width: 500px;
+    height: 200px;
 }
