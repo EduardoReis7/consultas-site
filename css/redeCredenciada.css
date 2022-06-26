@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:ital,wght@0,300;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:ital,wght@0,300;1,100&family=Rubik:wght@300&display=swap');
+
+body {
+    background: rgba(185, 229, 255, 1);
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 25px;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 25pt;
+}
+
+p {
+    font-family: 'Rubik', sans-serif;
+    font-size: 20pt;
+}
+
+ul {
+    list-style: none;
+}
+
+footer {
+    background:rgba(235, 241, 245, 0.2);
+}
+
+.navbar {
+    background:rgba(235, 241, 245, 0.6);
+    margin-bottom: 10px;
+}
+
+.nav-item a:hover {
+    color: rgba(235, 91, 99, 1);
+    transition: color 0.5s;
+}
+
+.container {
+    background-color: rgba(235, 241, 245, 1);
+    width: 70%;
+}
+
+i {
+    color: black;
+}
+
+i:hover {
+    color: rgba(235, 91, 99, 1);
+    transition: 0.5s;
+}
+
+#logoNav {
+    width: 75px;
+    height: 75px;
+}

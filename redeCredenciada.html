@@ -3,24 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rede credenciada</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/3d94f1f92b.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/redeCredenciada.css">
+    <title>Consultas - Rede credenciada</title>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Início</a></li>
-            <li><a href="quemSomos.html">Quem somos</a></li>
-            <li><a href="redeCredenciada.html">Rede credenciada</a></li>
-            <li><a href="contato.html">Contato</a></li>
-        </ul>
+    
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Logotipo" id="logoNav"></a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="quemSomos.html">Quem somos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="redeCredenciada.html">Rede credenciada</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
 
-    <footer>
-        <!-- Aqui vai a logo-->
-        <ul>
-            <li><a href="facebook">Facebook</a></li>
-            <li><a href="instagram">Instagram</a></li>
-            <li><a href="whatsapp">Whatsapp</a></li>
+    <div class="container rounded">
+
+      <div id="presentation" class="mb-4">
+        <h1 class="text-alignment">Rede credenciada</h1>
+
+        <p class="text-break text-alignment">Contamos com o apoio de nossos convênios parceiros.</p>
+      </div>
+
+      <div class="convenios">
+        <div class="row">
+          <div class="col-lg-3 card">
+            <img src="img/convenio1.png" alt="Logotipo Unimed."/>
+          </div>
+          <div class="col-lg-3 card">
+            <img src="img/convenio2.png" alt="Logotipo Bradesco Saúde."/>
+          </div>
+          <div class="col-lg-3 card">
+            <img src="img/convenio3.png" alt="Logotipo IPERGS."/>
+          </div>
+          <div class="col-lg-3 card">
+            <img src="img/convenio4.png" alt="Logotipo SulAmérica."/>
+          </div>
+        </div>
+      </div>
+
+      
+    </div>
+
+    <footer class="footer">
+        
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a class="nav-link" href="https://www.facebook.com"><i class="fa-brands fa-facebook footer-icons"></i></a></li>
+            <li class="nav-item"><a class="nav-link" href="https://www.instagram.com"><i class="fa-brands fa-instagram footer-icons"></i></a></li>
+            <li class="nav-item"><a class="nav-link" href="https://web.whatsapp.com"><i class="fa-brands fa-whatsapp footer-icons"></i></a></li>
         </ul>
     </footer>
 </body>
