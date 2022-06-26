@@ -28,11 +28,12 @@
 
     <div class="container rounded">
 
-        <h1>Descrição</h1>
+      <div id="presentation" class="mb-4">
+        <h1 class="text-alignment">Descrição</h1>
 
-        <p>Somos uma plataforma que visa facilitar o agendamento de consultas médicas.</p>
+        <p class="text-break text-alignment">Somos uma plataforma que visa facilitar o agendamento de consultas médicas.</p>
 
-        <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide carousel-fade mx-auto" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -58,27 +59,62 @@
               <span class="sr-only">Próximo</span>
             </a>
           </div>
+        </div>
+        
+        <div id="benefits">
+          <h2 class="text-alignment">Vantagens</h2>
 
-        <h2>Vantagens</h2>
+          <p class="text-break text-alignment">Utilizando nossos serviços você pode estar marcando suas consultas no conforto da sua casa.</p>
 
-        <p>Utilizando nossos serviços você pode estar marcando suas consultas no conforto da sua casa.</p>
+          <figure class="figure benefits-photo">
+            <img src="img/vantagens.png" class="figure-img img-fluid rounded" alt="Pessoa marcando consulta pelo celular."/>
+            <figcaption>
+              <p class="text-break text-alignment">Conte com nossos serviços para facilitar e melhorar sua experiência.</p>
+            </figcaption>
+          </figure>
 
-        <h3>Nossos números</h3>
+          
+        </div>
+        
+        <div id="our-numbers">
+          <h2 class="text-alignment">Nossos números</h2>
 
-        <!-- Métricas -->
-
-        <h3>Baixe agora mesmo nosso app e marque sua consulta!</h3>
-        <div class="text-center">
-            <a href="https://play.google.com/store/apps"><img class="rounded" alt="Disponível na Playstore!" id="google_buttom" src="img/disponivelPlaystore.png"/></a>
+          <article class="row text-center">
+            <div class="col-lg-4 card border-light mb-4">
+              <div class="card-body">
+                <h3 class="card-title">Clientes atendidos</h3>
+                <span class="display-2">13138</span>
+              </div>
+            </div>
+            <div class="col-lg-4 card border-light mb-4">
+              <div class="card-body">
+                <h3 class="card-title">Consultas marcadas</h3>
+                <span class="display-2">96408</span>
+              </div>
+            </div>
+            <div class="col-lg-4 card border-light mb-4">
+              <div class="card-body">
+                <h3 class="card-title">Médicos</h3>
+                <span class="display-2">1853</span>
+              </div>
+            </div>
+          </article>
+        </div>
+        
+        <div id="download">
+          <h2 class="text-alignment">Baixe agora mesmo nosso app e marque sua consulta!</h2>
+          <div id="img-download">
+              <a href="https://play.google.com/store/apps"><img class="rounded" alt="Disponível na Playstore!" src="img/disponivelPlaystore.png"/></a>
+          </div>
         </div>
     </div>
 
-    <footer class="container">
+    <footer class="footer">
         
         <ul class="nav justify-content-center">
-            <li class="nav-item"><a class="nav-link" href="facebook"><i class="fa-brands fa-facebook footerIcons"></i></a></li>
-            <li class="nav-item"><a class="nav-link" href="instagram"><i class="fa-brands fa-instagram footerIcons"></i></a></li>
-            <li class="nav-item"><a class="nav-link" href="whatsapp"><i class="fa-brands fa-whatsapp footerIcons"></i></a></li>
+            <li class="nav-item"><a class="nav-link" href="https://www.facebook.com"><i class="fa-brands fa-facebook footer-icons"></i></a></li>
+            <li class="nav-item"><a class="nav-link" href="https://www.instagram.com"><i class="fa-brands fa-instagram footer-icons"></i></a></li>
+            <li class="nav-item"><a class="nav-link" href="https://web.whatsapp.com"><i class="fa-brands fa-whatsapp footer-icons"></i></a></li>
         </ul>
     </footer>
 </body>
