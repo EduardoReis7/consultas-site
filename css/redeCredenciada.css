@@ -9,12 +9,14 @@ body {
 h1 {
     font-family: 'Poppins', sans-serif;
     padding-top: 25px;
+    margin-bottom: 30px;
 }
 
 h2 {
     font-family: 'Oswald', sans-serif;
     font-weight: 600;
     margin-bottom: 30px;
+    margin-top: 30px
 }
 
 h3 {
@@ -44,6 +46,37 @@ i:hover {
     transition: 0.5s;
 }
 
+figure.customer-photo {
+    position: relative;
+    width: 100%;
+}
+
+figure.customer-photo img {
+    width: 100%;
+    height: 600px;
+    border-radius: 5px;
+}
+
+figure.customer-photo figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    color: #fff;
+    font-size: 25pt;
+    width: 100%;
+    height: 600px;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+    text-align: center;
+}
+
+figure.customer-photo:hover figcaption {
+    opacity: 1;
+}
+
 .navbar {
     background:rgba(235, 241, 245, 0.6);
     margin-bottom: 10px;
@@ -64,8 +97,26 @@ i:hover {
 }
 
 .row {
-    width: 80%;
     margin: auto;
+}
+
+.card {
+    height: 120px;
+}
+
+.card img {
+    margin: auto;
+    filter: grayscale(100%);
+}
+
+.card img:hover {
+    filter: grayscale(0%);
+    transition: filter 0.5s;
+}
+
+.convenios {
+    margin-bottom: 30px;
+    padding-bottom: 25px;
 }
 
 #logoNav {
