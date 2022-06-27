@@ -35,6 +35,15 @@ footer {
     background:rgba(235, 241, 245, 0.2);
 }
 
+i {
+    color: black;
+}
+
+i:hover {
+    color: rgba(235, 91, 99, 1);
+    transition: 0.5s;
+}
+
 .navbar {
     background:rgba(235, 241, 245, 0.6);
     margin-bottom: 10px;
@@ -50,13 +59,13 @@ footer {
     width: 70%;
 }
 
-i {
-    color: black;
+.text-alignment {
+    margin-left: 50px;
 }
 
-i:hover {
-    color: rgba(235, 91, 99, 1);
-    transition: 0.5s;
+.row {
+    width: 80%;
+    margin: auto;
 }
 
 #logoNav {
