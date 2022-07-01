@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:ital,wght@0,300;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:ital,wght@0,300;1,100&family=Rubik:wght@300&display=swap');
+
+body {
+    background: rgba(185, 229, 255, 1);
+}
+
+.navbar {
+    background:rgba(235, 241, 245, 0.6);
+    margin-bottom: 10px;
+}
+
+.nav-item a:hover {
+    color: rgba(235, 91, 99, 1);
+    transition: color 0.5s;
+}
+
+.container {
+    background-color: rgba(235, 241, 245, 1);
+    
+    width: 70%;
+}
+
+.text-alignment {
+    margin-left: 50px;
+}
+
+footer {
+    background:rgba(235, 241, 245, 0.2);
+}
+
+.nome {
+    font-family: 'Oswald', sans-serif;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.email {
+    font-family: 'Oswald', sans-serif;
+}

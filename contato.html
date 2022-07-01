@@ -1,27 +1,73 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/3d94f1f92b.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <title>Consultas - Contato</title>
 </head>
+
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Início</a></li>
-            <li><a href="quemSomos.html">Quem somos</a></li>
-            <li><a href="redeCredenciada.html">Rede credenciada</a></li>
-            <li><a href="contato.html">Contato</a></li>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Logotipo" id="logoNav"></a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="quemSomos.html">Quem somos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="redeCredenciada.html">Rede credenciada</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
 
-    <footer>
-        <!-- Aqui vai a logo-->
-        <ul>
-            <li><a href="facebook">Facebook</a></li>
-            <li><a href="instagram">Instagram</a></li>
-            <li><a href="whatsapp">Whatsapp</a></li>
+
+    <div class="container">
+        <form class="formulario" action="pagina de ação" method="post" name="formulario"
+            onSubmit="return enviardados();">
+            <legend>
+                Deixe seu feedback
+            </legend>
+            <label for="userNome">Informe seu nome completo:</label><br>
+
+            <input type="text" class="formbutton" id="userNome" maxlength="150" name="userNome"><br>
+
+            <label for="userEmail">Informe seu e-mail:</label><br>
+
+            <input type="email" id="userEmail" maxlength="150" name="userEmail"><br>
+
+            <label for="userRecado"></label><br>
+
+            <textarea class="formbutton" id="userRecado" name="userRecado" rows="8" cols="40"
+                placeholder="Diga, como podemos ajudar você?" input></textarea><br>
+            <input name="btnEnviar" type="Enviar" class="formObjects" value="Enviar feedback">
+        </form>
+    </div>
+
+    <footer class="footer">
+
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a class="nav-link" href="https://www.facebook.com"><i
+                        class="fa-brands fa-facebook footer-icons"></i></a></li>
+            <li class="nav-item"><a class="nav-link" href="https://www.instagram.com"><i
+                        class="fa-brands fa-instagram footer-icons"></i></a></li>
+            <li class="nav-item"><a class="nav-link" href="https://web.whatsapp.com"><i
+                        class="fa-brands fa-whatsapp footer-icons"></i></a></li>
         </ul>
     </footer>
 </body>
+
 </html>
