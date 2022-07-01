@@ -29,6 +29,15 @@ footer {
     background:rgba(235, 241, 245, 0.2);
 }
 
+i {
+    color: black;
+}
+
+i:hover {
+    color: rgba(235, 91, 99, 1);
+    transition: 0.5s;
+}
+
 .nome {
     font-family: 'Oswald', sans-serif;
     display: flex;
@@ -37,4 +46,22 @@ footer {
 
 .email {
     font-family: 'Oswald', sans-serif;
+}
+
+textarea {
+    resize: none;
+    margin-bottom: 10px;
+}
+
+form {
+    padding-bottom: 15px;
+}
+
+#logoNav {
+    width: 75px;
+    height: 75px;
+}
+
+.btn {
+    opacity: .6;
 }
