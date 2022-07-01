@@ -18,6 +18,26 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/index.css">
     <title>Consultas - Contato</title>
+    <script>
+        function validateForm() {
+            let nome = document.forms["formulario"]["userNome"].value;
+            let email = document.forms["formulario"]["userEmail"].value;
+            let texto = document.forms["formulario"]["userRecado"].value;
+            if (nome == "") {
+                alert("Nome precisa ser preenchido.");
+                return false;
+            }
+            if (email == "") {
+                alert("E-mail precisa ser preenchido.");
+                return false;
+            }
+            if (texto == "") {
+                alert("Feedback deve ser preenchido.");
+                return false;
+            }
+            return true;
+        }
+    </script>
 </head>
 
 <body>
@@ -36,24 +56,19 @@
 
 
     <div class="container">
-        <form class="formulario" action="pagina de ação" method="post" name="formulario"
-            onSubmit="return enviardados();">
+        <form name="formulario" onsubmit="validateForm();" method="post">
             <legend>
                 Deixe seu feedback
             </legend>
             <label for="userNome">Informe seu nome completo:</label><br>
-
-            <input type="text" class="formbutton" id="userNome" maxlength="150" name="userNome"><br>
+            <input type="text" maxlength="150" name="userNome"><br>
 
             <label for="userEmail">Informe seu e-mail:</label><br>
-
-            <input type="email" id="userEmail" maxlength="150" name="userEmail"><br>
+            <input type="text" maxlength="150" name="userEmail"><br>
 
             <label for="userRecado"></label><br>
-
-            <textarea class="formbutton" id="userRecado" name="userRecado" rows="8" cols="40"
-                placeholder="Diga, como podemos ajudar você?" input></textarea><br>
-            <input name="btnEnviar" type="Enviar" class="formObjects" value="Enviar feedback">
+            <textarea name="userRecado" rows="9" cols="45" placeholder="Diga, como podemos ajudar você?"></textarea><br>
+            <input type="submit" value="Enviar feedback">
         </form>
     </div>
 
